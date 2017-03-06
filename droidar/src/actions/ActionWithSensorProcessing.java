@@ -152,6 +152,7 @@ public abstract class ActionWithSensorProcessing extends Action {
 				 */
 				if (screenRotation == Surface.ROTATION_90) {
 					// then rotate it according to the screen rotation:
+					//noinspection SuspiciousNameCombination
 					SensorManager.remapCoordinateSystem(unrotatedMatrix,
 							SensorManager.AXIS_Y, SensorManager.AXIS_MINUS_X,
 							rotationMatrix);
