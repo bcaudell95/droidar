@@ -66,7 +66,7 @@ public class GeoUtils {
 	 * you have to convert to decimal degrees.
 	 * 
 	 * Example usage: <br>
-	 * 16° 19' 28,29" to 16,324525°
+	 * 16degrees 19' 28,29" to 16,324525degrees
 	 * 
 	 * @param degree
 	 *            16
@@ -74,7 +74,7 @@ public class GeoUtils {
 	 *            19
 	 * @param seconds
 	 *            28,29
-	 * @return 16,324525°
+	 * @return 16,324525degrees
 	 */
 	public static double convertDegreesMinutesSecondsToDecimalDegrees(
 			double degree, double minutes, double seconds) {
